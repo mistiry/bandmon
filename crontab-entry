@@ -1,0 +1,2 @@
+* * * * * TERM=xterm /root/mark-snmp/bandmon.php h=1.1.1.1 c=bandmon i=1 t=1 > /var/log/bandmon.cron.log 2>&1
+@reboot /bin/rm -f /tmp/lok/bandmon
